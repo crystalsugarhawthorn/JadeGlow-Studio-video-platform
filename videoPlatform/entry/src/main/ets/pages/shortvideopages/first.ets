@@ -97,8 +97,10 @@ struct VideoDes {
     }
     .padding({ left: 10 })
     .alignItems(HorizontalAlign.Start)
+    .justifyContent(FlexAlign.End)
     .width('80%')
-
+    .align(Alignment.BottomStart)
+    .alignSelf(ItemAlign.Auto)
   }
 }
 
@@ -210,10 +212,10 @@ export struct first {
   }
 
   build(): void {
-    Stack() {
+    Stack({ alignContent: Alignment.BottomStart}) {
       Swiper() {
         ForEach(this.videoDataList, (item: VideoModel, index: number) => {
-          Stack() {
+          Stack({ alignContent: Alignment.BottomStart}) {
             if (this.currentIndex === index && this.isRefreshing) {
               Video({ src: `${Config.SERVER}/videoStream/${item.video_url}`, controller: item.controller })
                 .autoPlay(true).loop(true).objectFit(ImageFit.Contain)
@@ -228,6 +230,13 @@ export struct first {
               showComment: $showComment,
               isFavorite: item.isFavourite
             })
+            VideoDes({
+              name: item.title,
+              description: item.description,
+              time: this.formatDate(item.create_time)
+            })
+              .position({ x: 10, y: '75%' })
+              .zIndex(2) // 确保在视频上方显示
           }.width('100%').height('100%')
           .alignContent(Alignment.End)
         }, (item: VideoModel) => item.video_id.toString())
