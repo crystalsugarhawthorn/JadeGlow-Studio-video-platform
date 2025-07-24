@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "JadeGlow Studio"
+    },
+    {
+      "name": "reason",
+      "value": "Used for recording recognition"
+    },
+    {
+      "name": "Home",
+      "value": "Home"
+    },
+    {
+      "name": "ShortVideo",
+      "value": "ShortVideo"
+    },
+    {
+      "name": "Recommend",
+      "value": "Recommend"
+    },
+    {
+      "name": "Mine",
+      "value": "Mine"
+    },
+    {
+      "name": "TVSeries",
+      "value": "TV Series"
+    },
+    {
+      "name": "Movie",
+      "value": "Movie"
+    },
+    {
+      "name": "Anime",
+      "value": "Anime"
+    },
+    {
+      "name": "Documentary",
+      "value": "Documentary"
+    }
+  ]
+}

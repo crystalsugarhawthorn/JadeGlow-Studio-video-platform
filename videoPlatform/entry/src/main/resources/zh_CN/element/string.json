@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "青莹视频"
+    },
+    {
+      "name": "reason",
+      "value": "Used for recording recognition"
+    },
+    {
+      "name": "Home",
+      "value": "主页"
+    },
+    {
+      "name": "ShortVideo",
+      "value": "短视频"
+    },
+    {
+      "name": "Recommend",
+      "value": "推荐"
+    },
+    {
+      "name": "Mine",
+      "value": "我的"
+    },
+    {
+      "name": "TVSeries",
+      "value": "电视剧"
+    },
+    {
+      "name": "Movie",
+      "value": "电影"
+    },
+    {
+      "name": "Anime",
+      "value": "动漫"
+    },
+    {
+      "name": "Documentary",
+      "value": "纪录片"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Search",
+    "pages/SearchList",
+    "pages/videoDetail",
+    "pages/minepages/Login",
+    "pages/minepages/Register",
+    "pages/shortvideopages/VideoPlayPage",
+    "pages/minepages/BrowseHistory",
+    "pages/minepages/MyFavorites"
+  ]
+}
